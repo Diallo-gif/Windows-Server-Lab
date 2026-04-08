@@ -1,7 +1,5 @@
 # 📸 Screenshots
 
 Ce dossier contiendra les captures d’écran du projet :
-- Installation Active Directory
-- Configuration DNS
-- GPO
-- Serveur de fichiers
+- Installation Active Directory et DNS
+- Configuration de l'Active Directory
