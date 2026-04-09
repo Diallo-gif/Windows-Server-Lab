@@ -51,5 +51,5 @@ Les captures d’écran ci-dessous montrent la réussite de l’intégration du 
 
 ![Client Domain](./le-domaine.png)
 
-![Ping](./leping-fonctionnel.png)
+![Ping](./le-ping-fonctionnel.png)
 
