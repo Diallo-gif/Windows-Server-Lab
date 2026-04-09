@@ -42,5 +42,14 @@ Résultat :
 La machine CLIENT-01 est désormais membre du domaine et peut communiquer avec le contrôleur de domaine.
 
 Preuves :
-Les screenshots (client-01;le ping-fonctionnel;le-domaine) montrent la réussite de l’intégration du client au domaine ainsi que la communication avec le contrôleur de domaine.
+Les screenshots suivantes montrent la réussite de l’intégration du client au domaine ainsi que la communication avec le contrôleur de domaine.
+Preuves :
+
+Les captures d’écran ci-dessous montrent la réussite de l’intégration du client au domaine ainsi que la communication avec le contrôleur de domaine.
+
+![Join Domain](./Client-1(dans-le-domaine).png)
+
+![Client Domain](./le-domaine.png)
+
+![Ping](./le ping-fonctionnel.png)
 
