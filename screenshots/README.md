@@ -28,3 +28,20 @@ Connexion réussie avec un compte du domaine beta.local.
 
 Vérification des rôles AD DS et DNS actifs sur le serveur BETA.
 
+### Intégration d’un client au domaine
+Objectif :  
+Intégrer une machine Windows 10 (CLIENT-01) au domaine Active Directory alpha.local.
+
+Étapes réalisées :  
+- Configuration réseau du client  
+- Connexion au domaine alpha.local  
+- Authentification avec un compte administrateur  
+- Redémarrage de la machine  
+
+Résultat :  
+La machine CLIENT-01 est désormais membre du domaine et peut communiquer avec le contrôleur de domaine.
+
+Preuves :Preuves :
+
+Les captures suivantes montrent la réussite de l’intégration du client au domaine ainsi que la communication avec le contrôleur de domaine.
+
