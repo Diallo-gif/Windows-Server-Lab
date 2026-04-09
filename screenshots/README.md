@@ -41,7 +41,6 @@ Intégrer une machine Windows 10 (CLIENT-01) au domaine Active Directory alpha.l
 Résultat :  
 La machine CLIENT-01 est désormais membre du domaine et peut communiquer avec le contrôleur de domaine.
 
-Preuves :Preuves :
-
+Preuves :
 Les screenshots (client-01;le ping-fonctionnel;le-domaine) montrent la réussite de l’intégration du client au domaine ainsi que la communication avec le contrôleur de domaine.
 
