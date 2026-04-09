@@ -43,5 +43,5 @@ La machine CLIENT-01 est désormais membre du domaine et peut communiquer avec l
 
 Preuves :Preuves :
 
-Les captures suivantes montrent la réussite de l’intégration du client au domaine ainsi que la communication avec le contrôleur de domaine.
+Les screenshots (client-01;le ping-fonctionnel;le-domaine) montrent la réussite de l’intégration du client au domaine ainsi que la communication avec le contrôleur de domaine.
 
