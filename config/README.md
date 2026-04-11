@@ -22,7 +22,7 @@ CLIENT-01 :
 - Second contrôleur : Serveur-02 (DC-BETA)
   
 Objectif :
-- Assurer la redondance du domaine
+- Assurer la redondance du domaine(pour assurer la continuité du service)
 - Grâce à la réplication entre les contrôleurs de domaine
 ---
 
