@@ -20,6 +20,7 @@ CLIENT-01 :
 - Domaine principal : alpha.local
 - Contrôleur principal : Serveur-01 (DC-ALPHA)
 - Second contrôleur : Serveur-02 (DC-BETA)
+  
 Objectif :
 - Assurer la redondance du domaine
 - Grâce à la réplication entre les contrôleurs de domaine
