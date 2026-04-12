@@ -58,7 +58,7 @@ Mettre en place un serveur DHCP afin d’attribuer automatiquement des adresses 
    - Autorisation du serveur dans Active Directory
 
 3. Création d’un scope DHCP
-   - Plage d’adresses : 192.168.56.100 – 192.168.56.150
+   - Plage d’adresses : 192.168.56.100 – 192.168.56.200
    - Masque de sous-réseau : 255.255.255.0
 
 4. Configuration des options DHCP
