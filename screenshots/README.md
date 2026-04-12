@@ -49,7 +49,6 @@ Les captures d’écran ci-dessous montrent la réussite de l’intégration du 
 
 ![Join Domain](./Client-1(dans-le-domaine).png)
 #### Installation du rôle DHCP
-![Client Domain](Client-1(dans-le-domaine).png)
 
 ![Test DHCP](console.png)
 
