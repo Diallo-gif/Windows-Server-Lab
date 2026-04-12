@@ -49,6 +49,18 @@ Les captures d’écran ci-dessous montrent la réussite de l’intégration du 
 
 ![Join Domain](./Client-1(dans-le-domaine).png)
 
+#### Installation du rôle DHCP
+![Installation DHCP](../captures%20d'écran/dhcp-install.png)
+
+#### Création du scope DHCP
+![Scope DHCP](../captures%20d'écran/dhcp-scope.png)
+
+#### Configuration du DHCP
+![DHCP actif](../captures%20d'écran/dhcp-pool.png)
+
+#### Test côté client
+![Test DHCP](../captures%20d'écran/dhcp-test.png)
+
 ![Client Domain](./le-domaine.png)
 
 ![Ping](./le-ping-fonctionnel.png)
