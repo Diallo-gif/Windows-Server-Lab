@@ -48,20 +48,15 @@ Preuves :
 Les captures d’écran ci-dessous montrent la réussite de l’intégration du client au domaine ainsi que la communication avec le contrôleur de domaine.
 
 ![Join Domain](./Client-1(dans-le-domaine).png)
-
 #### Installation du rôle DHCP
-![Installation DHCP](../captures%20d'écran/dhcp-install.png)
+![Installation DHCP](../captures%20d'écran/1.png)
 
 #### Création du scope DHCP
-![Scope DHCP](../captures%20d'écran/dhcp-scope.png)
+![Scope DHCP](../captures%20d'écran/Étendue.png)
 
 #### Configuration du DHCP
-![DHCP actif](../captures%20d'écran/dhcp-pool.png)
+![DHCP actif](../captures%20d'écran/3.png)
 
 #### Test côté client
-![Test DHCP](../captures%20d'écran/dhcp-test.png)
-
-![Client Domain](./le-domaine.png)
-
-![Ping](./le-ping-fonctionnel.png)
+![Test DHCP](../captures%20d'écran/console.png)
 
