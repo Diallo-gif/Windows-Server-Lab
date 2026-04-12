@@ -53,7 +53,7 @@ Les captures d’écran ci-dessous montrent la réussite de l’intégration du 
 ![Test DHCP](console.png)
 
 #### Création du scope DHCP
-![Scope DHCP](Étendue.png)
+![Scope DHCP](etendue.png)
 
 #### Pool d’adresses DHCP
 ![DHCP Pool](adresse.png)
