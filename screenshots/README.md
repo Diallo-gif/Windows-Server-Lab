@@ -50,11 +50,8 @@ Les captures d’écran ci-dessous montrent la réussite de l’intégration du 
 ![Join Domain](./Client-1(dans-le-domaine).png)
 #### Installation du rôle DHCP
 
-![Test DHCP](console.png)
-
-#### Création du scope DHCP
 ![Scope DHCP](Etendue.png)
 
-#### Pool d’adresses DHCP
 ![DHCP Pool](adresse.png)
 
+![Test DHCP](console.png)
