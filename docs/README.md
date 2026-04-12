@@ -42,10 +42,9 @@ Le domaine Active Directory est opérationnel et prêt à accueillir des machine
 ---
 ###  Solutions
 Solution : Désactivation temporaire pour test réseau
+
 ## Phase 2 — Installation et configuration du serveur DHCP
-
 ### Objectif
-
 Mettre en place un serveur DHCP afin d’attribuer automatiquement des adresses IP aux machines du réseau interne.
 
 ---
@@ -72,4 +71,5 @@ Mettre en place un serveur DHCP afin d’attribuer automatiquement des adresses 
    - Test de connectivité avec le serveur (ping)
 ---
 ### Résultat
-Les machines clientes obtiennent automatiquement une adresse IP valide et peuvent communiquer avec le serveur ainsi qu’avec le domaine Active Directory.
+Après avoir fait: ipconfig /release et ipconfig /renew on a:
+les machines clientes obtiennent automatiquement une adresse IP valide et peuvent communiquer avec le serveur ainsi qu’avec le domaine Active Directory.
