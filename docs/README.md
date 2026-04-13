@@ -105,7 +105,7 @@ Création d’Unités d’Organisation (OU) pour structurer l’entreprise :
 - **OU GROUPES**
 - **OU ORDINATEURS**
 - **OU SERVEURS**
-1. ## Création et liaison de la GPO
+1. ## Phase 4- Création et liaison de la GPO
 (image GPO liée)
 
 2. Configuration des restrictions
@@ -122,7 +122,7 @@ Commande : gpupdate /force
 Accès bloqué avec message de restriction
 (image erreur)
 
-### Serveur de fichiers et permissions
+### Phase 5- Serveur de fichiers et permissions
 
 Les permissions ne sont pas attribuées directement aux utilisateurs,  
 mais à des groupes de sécurité.
