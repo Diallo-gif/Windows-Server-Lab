@@ -43,7 +43,23 @@ Le domaine Active Directory est opérationnel et prêt à accueillir des machine
 ###  Solutions
 Solution : Désactivation temporaire pour test réseau
 
-## Phase 2 — Installation et configuration du serveur DHCP
+### Phase 2 — Configuration du serveur DNS
+## Objectif
+Mettre en place un serveur DNS afin de permettre la résolution des noms dans le domaine Active Directory.
+
+Le DNS est un composant essentiel d’Active Directory, car il permet de traduire les noms de domaine en adresses IP et de localiser les services du domaine
+
+ ## Configuration réalisée
+Installation du rôle DNS sur le contrôleur de domaine
+Création de la zone de recherche directe : alpha.local
+Création automatique de la zone _msdcs.alpha.local
+Mise en place d’une zone de recherche inversée
+Ajout d’un enregistrement PTR pour associer une adresse IP à un nom de machine
+![vue-de-zone](vue-de-zone.png)
+![pointeur-PTR](pointeur-PTR.png)
+![console-nslookup](console-nslookup.png)
+
+## Phase 3 — Installation et configuration du serveur DHCP
 ### Objectif
 Mettre en place un serveur DHCP afin d’attribuer automatiquement des adresses IP aux machines du réseau interne.
 
