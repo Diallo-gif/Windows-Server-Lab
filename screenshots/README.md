@@ -64,6 +64,12 @@ Les captures d’écran ci-dessous montrent la réussite de l’intégration du 
 ![unité-d'organisation](unité-d'organisation.png)
 ![utilisateur](utilisateur.png)
 ## Configuration GPO:
+![6](6.png)
+![7](7.png)
+![8](8.png)
+![9](9.png)
+![10](10.png)
+![11](11.png)
 
 
 
