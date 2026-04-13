@@ -36,11 +36,12 @@ Le domaine Active Directory est opérationnel et prêt à accueillir des machine
 - La configuration réseau avant installation
 
 ---
-###  Problèmes rencontrés
+##  Problème rencontré
+-
  Impossible de ping entre le client et le serveur  
  Cause : Firewall activé sur le serveur  
 ---
-###  Solutions
+##  Solutions
 Solution : Désactivation temporaire pour test réseau
 
 ### Phase 2 — Configuration du serveur DNS
@@ -55,9 +56,10 @@ Création de la zone de recherche directe : alpha.local
 Création automatique de la zone _msdcs.alpha.local
 Mise en place d’une zone de recherche inversée
 Ajout d’un enregistrement PTR pour associer une adresse IP à un nom de machine
-![vue-de-zone](vue-de-zone.png)
-![pointeur-PTR](pointeur-PTR.png)
-![console-nslookup](console-nslookup.png)
+## Problème rencontré:
+Le serveur DNS était mal configuré, empêchant la résolution du nom de domaine malgré une connectivité réseau fonctionnelle.
+## solution trouvée:
+Correction de la configuration DNS en pointant la machine vers l’adresse IP du contrôleur de domaine (192.168.56.50).
 
 ## Phase 3 — Installation et configuration du serveur DHCP
 ### Objectif
