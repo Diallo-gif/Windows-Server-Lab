@@ -70,6 +70,11 @@ Les captures d’écran ci-dessous montrent la réussite de l’intégration du 
 ![9](9.png)
 ![10](10.png)
 ![11](11.png)
+### Gestion des accès via groupes
+![12](12.png)
+![13](13.png)
+![14](14.png)
+![15](15.png)
 
 
 
