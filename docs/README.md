@@ -91,3 +91,15 @@ Mettre en place un serveur DHCP afin d’attribuer automatiquement des adresses 
 ### Résultat
 Après avoir fait: ipconfig /release et ipconfig /renew on a:
 les machines clientes obtiennent automatiquement une adresse IP valide et peuvent communiquer avec le serveur ainsi qu’avec le domaine Active Directory.
+
+### Organisation Active Directory
+## Configuration réalisée
+Création d’Unités d’Organisation (OU) pour structurer l’entreprise :
+OU UTILISATEURS
+IT
+RH
+COMPTABILITES
+DIRECTION
+OU GROUPES
+OU ORDINATEURS
+OU SERVEURS
