@@ -49,6 +49,9 @@ Les captures d’écran ci-dessous montrent la réussite de l’intégration du 
 
 ![Join Domain](./Client-1(dans-le-domaine).png)
 ### Installation et configuration Du DNS
+![vue-de-zone](vue-de-zone.png)
+![pointeur-PTR](pointeur-PTR.png)
+![console-nslookup](console-nslookup.png)
 
 #### Installation du rôle DHCP
 
