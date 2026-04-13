@@ -105,3 +105,19 @@ Création d’Unités d’Organisation (OU) pour structurer l’entreprise :
 - **OU GROUPES**
 - **OU ORDINATEURS**
 - **OU SERVEURS**
+1. ## Création et liaison de la GPO
+(image GPO liée)
+
+2. Configuration des restrictions
+- Accès au panneau de configuration interdit
+- Restrictions sur les imprimantes
+
+(images configuration)
+
+3. Application de la stratégie
+Commande : gpupdate /force
+(ligne de commande)
+
+4. Résultat côté utilisateur
+Accès bloqué avec message de restriction
+(image erreur)
