@@ -122,13 +122,13 @@ Commande : gpupdate /force
 Accès bloqué avec message de restriction
 (image erreur)
 
-### Gestion des accès via groupes (bonne pratique)
+### Serveur de fichiers et permissions
 
 Les permissions ne sont pas attribuées directement aux utilisateurs,  
 mais à des groupes de sécurité.
 
 Exemple :
-- Groupe_direction → accès aux dossiers autorisés
+- Groupe_direction accès aux dossiers autorisés
 - Utilisateurs ajoutés dans le groupe
 
 Résultat :
