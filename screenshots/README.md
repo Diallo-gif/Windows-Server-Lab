@@ -48,6 +48,8 @@ Preuves :
 Les captures d’écran ci-dessous montrent la réussite de l’intégration du client au domaine ainsi que la communication avec le contrôleur de domaine.
 
 ![Join Domain](./Client-1(dans-le-domaine).png)
+### Installation et configuration Du DNS
+
 #### Installation du rôle DHCP
 
 ![Scope DHCP](Etendue.png)
