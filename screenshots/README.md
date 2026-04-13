@@ -60,3 +60,7 @@ Les captures d’écran ci-dessous montrent la réussite de l’intégration du 
 ![DHCP Pool](adresse.png)
 
 ![Test DHCP](console.png)
+### Active Directory de l'organisation
+![unité-d'organisation](unité-d'organisation.png)
+
+
