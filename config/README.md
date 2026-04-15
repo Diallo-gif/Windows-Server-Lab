@@ -24,9 +24,13 @@ CLIENT-01 :
 - Second contrôleur : Serveur-02 (DC-BETA)
   
 Objectif :
-- Assurer la redondance du domaine(pour assurer la continuité du service)
-- Grâce à la réplication entre les contrôleurs de domaine
----
+
+Mettre en place une infrastructure Active Directory fonctionnelle,
+incluant la communication entre deux domaines via une relation d’approbation (trust).
+
+- Permettre l’authentification entre les domaines alpha.local et beta.local
+- Assurer la résolution DNS entre les deux environnements
+- Mettre en place une gestion sécurisée des accès basée sur les groupes
 
 ##  Utilisateurs et groupes
 
