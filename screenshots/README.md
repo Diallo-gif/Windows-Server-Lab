@@ -74,6 +74,15 @@ Les captures d’écran ci-dessous montrent la réussite de l’intégration du 
 ![13](13.png)
 ![14](14.png)
 ![15](15.png)
+### Relation d'approbation
+![16](16.png)
+![17](17.png)
+![18](18.png)
+![19](19.png)
+![20](20.png)
+![21](21.png)
+![22](22.png)
+![23](23.png)
 
 
 
