@@ -10,7 +10,9 @@ Serveur-01 (DC-ALPHA) :
 - DNS : 192.168.56.50
 
 Serveur-02 (DC-BETA) :
-(A compléter)
+-IP : 192.168.56.60
+-DNS : 192.168.56.60
+
 CLIENT-01 :
 - IP : DHCP 
 - DNS : 192.168.56.50
