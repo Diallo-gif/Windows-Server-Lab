@@ -134,3 +134,37 @@ Exemple :
 Résultat :
 - Accès contrôlé et sécurisé
 - Gestion simplifiée
+
+### Phase 6 -Relation d’approbation
+Mise en place d’une relation d’approbation entre ALPHA.local et BETA.local afin de permettre l’accès aux ressources entre domaines.
+🔹 Configuration du trust
+Création d’une approbation entre :
+alpha.local et beta.local
+Type : Bidirectionnel
+Authentification : autorisée entre les deux domaines
+🔹 Validation du trust
+Vérification dans "Domaines et approbations Active Directory"
+Présence de beta.local dans :
+Approbations entrantes
+Approbations sortantes
+🔹 Vérification DNS
+Tests de résolution entre les deux domaines :
+
+** nslookup SERVER-01.alpha.local ** 
+** nslookup SERVER-02.beta.local **
+
+Résultat :
+
+Résolution correcte des noms
+Communication fonctionnelle
+🔹 Attribution des permissions inter-domaines
+
+Mise en place d’un accès sécurisé basé sur les groupes :
+
+Création de groupes dans chaque domaine
+Attribution des permissions NTFS
+Ajout des utilisateurs dans les groupes
+🔹 Test d’accès
+❌ Accès refusé
+Utilisateur sans permission :
+
