@@ -219,3 +219,7 @@ Le client récupère une adresse IP valide et retrouve l’accès au réseau.
 #### Conclusion
 
 Cet incident démontre l’importance du DHCP dans l’attribution automatique des adresses IP et la nécessité d’une approche méthodique pour diagnostiquer un problème réseau.
+
+### Phase 8- Mise en place d'accès à distance (VPN)
+
+A faire...
