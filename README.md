@@ -50,7 +50,11 @@ Objectif : reproduire une architecture Windows Server réaliste avec gestion de 
 - Simulation d’incidents réseau et système (DHCP, DNS, accès)
 
 ---
+### Captures d'écran
 
+ Voir la partie qui contient tous les screenshoots qui explique chaque situation.
+ 
+ --
 ## Statut
 
 Projet en cours d’amélioration continue :
