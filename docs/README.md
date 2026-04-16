@@ -168,3 +168,54 @@ Ajout des utilisateurs dans les groupes
 ❌ Accès refusé
 Utilisateur sans permission :
 
+### Phase 7 - Gestion d'incident:
+###  Incident DHCP simulé
+
+#### Contexte
+Un poste client (CLIENT-01) ne parvient plus à accéder au réseau.
+
+L’utilisateur indique :
+"Je suis connecté mais je n’ai pas internet ni accès au serveur"
+
+#### Observation
+
+Commande exécutée :
+ipconfig
+
+Résultat :
+- Adresse IP : 169.254.x.x
+- Aucun DNS
+- Aucune passerelle
+
+#### Analyse
+
+Une adresse IP en 169.254.x.x (APIPA) indique que le client n’a pas reçu d’adresse IP du serveur DHCP.
+
+#### Diagnostic
+
+Hypothèse :
+Le serveur DHCP ne fournit plus d’adresses IP.
+
+Vérifications :
+- Test de renouvellement IP (ipconfig /renew)
+- Vérification du serveur DHCP
+
+#### Cause identifiée
+
+Le scope DHCP était désactivé.
+
+#### Résolution
+
+Réactivation du scope DHCP sur le serveur.
+
+#### Validation
+
+Commande exécutée :
+ipconfig /renew
+
+Résultat :
+Le client récupère une adresse IP valide et retrouve l’accès au réseau.
+
+#### Conclusion
+
+Cet incident démontre l’importance du DHCP dans l’attribution automatique des adresses IP et la nécessité d’une approche méthodique pour diagnostiquer un problème réseau.
