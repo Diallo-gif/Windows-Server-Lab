@@ -83,6 +83,9 @@ Les captures d’écran ci-dessous montrent la réussite de l’intégration du 
 ![21](21.png)
 ![22](22.png)
 ![23](23.png)
-
-
+###  Incident DHCP simulé
+![1.désactiver-scoop](1.désactiver-scoop.png)
+![2.APIPA](2.APIPA.png)
+![3.reactiver-scoop](3.reactiver-scoop.png)
+![4.obtention-Ip](4.obtention-Ip.png)
 
