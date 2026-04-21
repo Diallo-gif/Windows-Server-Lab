@@ -220,6 +220,46 @@ Le client récupère une adresse IP valide et retrouve l’accès au réseau.
 
 Cet incident démontre l’importance du DHCP dans l’attribution automatique des adresses IP et la nécessité d’une approche méthodique pour diagnostiquer un problème réseau.
 
-### Phase 8- Mise en place d'accès à distance (VPN)
+### Phase 8 – Mise en place d’un accès à distance (VPN)
 
-A faire...
+####  Objectif
+Permettre à des utilisateurs distants d’accéder au réseau interne via un VPN.
+
+---
+
+####  Étapes réalisées
+- Configuration du rôle **RRAS (VPN + NAT)**
+- Configuration des interfaces :
+  - WAN (10.0.2.4)
+  - LAN (192.168.56.50)
+- Mise en place d’un pool d’adresses IP
+- Autorisation des utilisateurs
+- Configuration VPN côté client (PPTP)
+
+---
+
+#### Test
+- Connexion au serveur VPN (10.0.2.4)
+- Authentification utilisateur
+- Vérification IP (`ipconfig`) et connectivité (`ping`)
+
+---
+
+#### ❌ Problème
+Connexion refusée
+
+---
+
+####  Solution
+- Activation de l’accès distant utilisateur
+- Vérification du protocole VPN
+
+---
+
+#### ✔️ Résultat
+Connexion VPN fonctionnelle et accès au réseau interne
+
+---
+
+#### 🧠 Conclusion
+Le VPN permet un accès distant au réseau, avec authentification et contrôle d’accès via les permissions.
