@@ -78,3 +78,26 @@ Résultat :
  Communication fonctionnelle entre les machines et les domaines
 
 ---
+## VPN (Accès à distance)
+
+### Configuration
+- Mise en place du rôle Accès à distance (RRAS)
+- Activation du service VPN et NAT
+- Configuration de l’interface WAN (accès Internet)
+- Création d’un pool d’adresses IP pour les clients VPN
+
+### Authentification
+- Utilisation des comptes Active Directory
+- Autorisation d’accès VPN configurée sur les utilisateurs
+
+### Tests réalisés
+- Connexion d’un client distant au serveur VPN
+- Vérification de l’adresse IP attribuée (ipconfig)
+- Accès au domaine interne depuis le client VPN
+
+### Résultat
+- Connexion sécurisée établie entre le client et le réseau interne
+- Accès aux ressources selon les permissions Active Directory
+
+### Contexte
+- Simulation d’un environnement de télétravail sécurisé
